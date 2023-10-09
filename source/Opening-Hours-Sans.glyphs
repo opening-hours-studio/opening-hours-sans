@@ -1,5 +1,8 @@
 {
 .appVersion = "3151";
+DisplayStrings = (
+"Towards/space de/space stijl/space and/space neoplasticism\012Varm\012Water\012Wouters\012Winter\012Wurth\012"
+);
 copyright = "© 2023 Opening Hours Studio";
 date = "2023-09-11 11:33:12 +0000";
 designer = "Kim Andre Ottesen";
@@ -1162,7 +1165,7 @@ unicode = 005A;
 },
 {
 glyphname = a;
-lastChange = "2023-10-03 12:58:18 +0000";
+lastChange = "2023-10-09 11:51:52 +0000";
 layers = (
 {
 anchors = (
@@ -2240,7 +2243,7 @@ unicode = 006E;
 },
 {
 glyphname = o;
-lastChange = "2023-10-03 13:03:56 +0000";
+lastChange = "2023-10-09 11:51:52 +0000";
 layers = (
 {
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
@@ -2390,7 +2393,7 @@ unicode = 00F6;
 },
 {
 glyphname = oslash;
-lastChange = "2023-10-03 12:42:47 +0000";
+lastChange = "2023-10-04 09:34:09 +0000";
 layers = (
 {
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
@@ -2686,7 +2689,7 @@ unicode = 0074;
 },
 {
 glyphname = u;
-lastChange = "2023-10-03 12:56:08 +0000";
+lastChange = "2023-10-04 09:28:37 +0000";
 layers = (
 {
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
@@ -3620,11 +3623,11 @@ unicode = 2044;
 },
 {
 glyphname = space;
-lastChange = "2018-07-23 23:06:31 +0000";
+lastChange = "2023-10-09 11:50:08 +0000";
 layers = (
 {
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
-width = 262;
+width = 263;
 }
 );
 unicode = 0020;
@@ -7270,6 +7273,11 @@ kerning = {
 A = {
 V = -70;
 };
+F = {
+"@MMK_R_a" = -40;
+o = -40;
+u = -40;
+};
 T = {
 a = -60;
 ae = -20;
@@ -7279,7 +7287,7 @@ e = -90;
 m = -20;
 n = -20;
 o = -80;
-oslash = -50;
+oslash = -80;
 r = -40;
 s = -20;
 u = -60;
@@ -7298,8 +7306,10 @@ e = -85;
 o = -80;
 };
 W = {
+"@MMK_R_a" = -50;
 A = 0;
 e = 0;
+o = -50;
 };
 Y = {
 e = -80;
@@ -7324,5 +7334,5 @@ tH = "74";
 };
 };
 versionMajor = 1;
-versionMinor = 300;
+versionMinor = 301;
 }
