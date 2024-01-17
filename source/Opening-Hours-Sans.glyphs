@@ -2,7 +2,6 @@
 .appVersion = "3151";
 DisplayStrings = (
 "Towards/space de/space stijl/space and/space neoplasticism\012Varm\012Water\012Wouters\012Winter\012Wurth\012",
-e,
 "eé",
 E,
 "Á",
@@ -11,10 +10,10 @@ E,
 l,
 "Projects/rightArrow",
 "/rightArrow",
-"/southEastArrow"
+"/upArrow"
 );
 copyright = "© 2023 Opening Hours Studio";
-date = "2024-01-17 16:57:12 +0000";
+date = "2024-01-17 18:17:41 +0000";
 designer = "Kim Andre Ottesen";
 designerURL = "https://kimandreottesen.no";
 familyName = "Opening Hours Sans";
@@ -7908,13 +7907,13 @@ unicode = 2198;
 },
 {
 glyphname = downArrow;
-lastChange = "2024-01-17 16:50:01 +0000";
+lastChange = "2024-01-17 18:16:43 +0000";
 layers = (
 {
 components = (
 {
 name = upArrow;
-transform = "{1, 0, 0, -1, 0, 792}";
+transform = "{1, 0, 0, -1, 0, 730}";
 }
 );
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
@@ -8883,5 +8882,5 @@ tH = "74";
 };
 };
 versionMajor = 1;
-versionMinor = 410;
+versionMinor = 411;
 }
