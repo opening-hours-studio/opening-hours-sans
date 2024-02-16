@@ -1,10 +1,7 @@
 {
 .appVersion = "3151";
-DisplayStrings = (
-"stijlig/space"
-);
 copyright = "© 2023 Opening Hours Studio";
-date = "2024-02-08 09:47:51 +0000";
+date = "2024-02-16 13:17:08 +0000";
 designer = "Kim Andre Ottesen";
 designerURL = "https://kimandreottesen.no";
 familyName = "Opening Hours Sans";
@@ -60,7 +57,7 @@ xHeight = 520;
 glyphs = (
 {
 glyphname = A;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 12:07:23 +0000";
 layers = (
 {
 anchors = (
@@ -1377,7 +1374,7 @@ unicode = 0051;
 },
 {
 glyphname = R;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 10:47:44 +0000";
 layers = (
 {
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
@@ -1479,7 +1476,7 @@ unicode = 0053;
 },
 {
 glyphname = T;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 10:57:03 +0000";
 layers = (
 {
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
@@ -1636,7 +1633,7 @@ unicode = 00D9;
 },
 {
 glyphname = V;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 10:51:13 +0000";
 layers = (
 {
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
@@ -1661,7 +1658,7 @@ unicode = 0056;
 },
 {
 glyphname = W;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 12:05:39 +0000";
 layers = (
 {
 anchors = (
@@ -1809,7 +1806,7 @@ unicode = 0058;
 },
 {
 glyphname = Y;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 10:54:56 +0000";
 layers = (
 {
 anchors = (
@@ -2076,7 +2073,7 @@ width = 649;
 },
 {
 glyphname = a;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 10:55:43 +0000";
 layers = (
 {
 anchors = (
@@ -2634,7 +2631,7 @@ unicode = 0064;
 },
 {
 glyphname = e;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 10:59:23 +0000";
 layers = (
 {
 anchors = (
@@ -3398,7 +3395,7 @@ unicode = 00F1;
 },
 {
 glyphname = o;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 10:57:57 +0000";
 layers = (
 {
 anchors = (
@@ -3910,7 +3907,7 @@ unicode = 0074;
 },
 {
 glyphname = u;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 12:05:13 +0000";
 layers = (
 {
 anchors = (
@@ -4073,7 +4070,7 @@ unicode = 0076;
 },
 {
 glyphname = w;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 12:06:58 +0000";
 layers = (
 {
 anchors = (
@@ -5526,7 +5523,7 @@ unicode = 0020;
 },
 {
 glyphname = period;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 12:07:34 +0000";
 layers = (
 {
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
@@ -5548,7 +5545,7 @@ unicode = 002E;
 },
 {
 glyphname = comma;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-02-16 12:07:42 +0000";
 layers = (
 {
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
@@ -9789,29 +9786,53 @@ name = Regular;
 );
 kerning = {
 "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355" = {
+"@MMK_L_A" = {
+T = -70;
+W = -40;
+Y = -70;
+};
 A = {
 V = -70;
 };
 F = {
 "@MMK_R_a" = -40;
+comma = -50;
 o = -40;
+period = -40;
 u = -40;
 };
+L = {
+T = -100;
+V = -70;
+W = -60;
+Y = -100;
+};
+P = {
+"@MMK_R_A" = -50;
+comma = -80;
+period = -70;
+};
+R = {
+e = -10;
+};
 T = {
-a = -60;
+"@MMK_R_A" = -80;
+a = -80;
 ae = -20;
 aring = -50;
 c = -60;
+comma = -60;
 e = -90;
 m = -20;
 n = -20;
-o = -130;
+o = -120;
 oslash = -80;
+period = -60;
 r = -40;
 s = -20;
 u = -60;
 v = -20;
-w = -20;
+w = -60;
 x = -20;
 y = -40;
 z = -20;
@@ -9819,21 +9840,44 @@ z = -20;
 V = {
 "@MMK_R_A" = -80;
 "@MMK_R_a" = -80;
-A = -80;
-a = -80;
-e = -85;
+A = -70;
+a = -50;
+comma = -50;
+e = -65;
 o = -80;
+period = -50;
 };
 W = {
 "@MMK_R_a" = -50;
-A = 0;
+A = -50;
 e = -40;
 o = -50;
+period = -50;
 };
 Y = {
+"@MMK_R_a" = -80;
+comma = -80;
 e = -90;
 m = -70;
 o = -90;
+period = -70;
+u = -50;
+};
+e = {
+s = 0;
+};
+r = {
+period = -40;
+};
+v = {
+comma = -30;
+period = -30;
+};
+w = {
+period = -40;
+};
+y = {
+period = -40;
 };
 };
 };
@@ -9854,5 +9898,5 @@ tH = "74";
 };
 };
 versionMajor = 1;
-versionMinor = 511;
+versionMinor = 550;
 }
