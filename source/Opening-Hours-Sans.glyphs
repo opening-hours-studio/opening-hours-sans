@@ -1,5 +1,11 @@
 {
-.appVersion = "3151";
+.appVersion = "3260";
+DisplayStrings = (
+"exploratory/space design/space studio",
+"/f_t",
+"/r_t",
+"pe/r_f ect"
+);
 copyright = "© 2023 Opening Hours Studio";
 date = "2024-02-16 13:17:08 +0000";
 designer = "Kim Andre Ottesen";
@@ -2073,7 +2079,7 @@ width = 649;
 },
 {
 glyphname = a;
-lastChange = "2024-02-16 10:55:43 +0000";
+lastChange = "2024-02-16 13:28:52 +0000";
 layers = (
 {
 anchors = (
@@ -4188,30 +4194,73 @@ unicode = 1E81;
 },
 {
 glyphname = x;
-lastChange = "2024-02-08 09:47:47 +0000";
+lastChange = "2024-08-27 14:07:46 +0000";
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"121 0 LINE",
+"219 147 LINE SMOOTH",
+"226 158 OFFCURVE",
+"242 184 OFFCURVE",
+"249 197 QCURVE SMOOTH",
+"258 211 OFFCURVE",
+"266 226 QCURVE",
+"268 226 LINE",
+"276 211 OFFCURVE",
+"284 197 QCURVE SMOOTH",
+"292 184 OFFCURVE",
+"308 158 OFFCURVE",
+"315 147 QCURVE SMOOTH",
+"415 0 LINE",
+"520 0 LINE",
+"319 281 LINE",
+"489 520 LINE",
+"391 520 LINE",
+"311 401 LINE SMOOTH",
+"304 391 OFFCURVE",
+"290 366 OFFCURVE",
+"283 355 QCURVE SMOOTH",
+"276 343 OFFCURVE",
+"268 329 QCURVE",
+"266 329 LINE",
+"259 343 OFFCURVE",
+"251 355 QCURVE SMOOTH",
+"245 366 OFFCURVE",
+"230 390 OFFCURVE",
+"224 401 QCURVE",
+"147 520 LINE",
+"42 520 LINE",
+"216 272 LINE",
+"20 0 LINE"
+);
+}
+);
+};
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
 paths = (
 {
 closed = 1;
 nodes = (
-"119 0 LINE",
-"233 187 LINE",
-"347 0 LINE",
-"446 0 LINE",
-"281 262 LINE",
-"440 520 LINE",
-"351 520 LINE",
-"233 336 LINE",
-"114 520 LINE",
-"25 520 LINE",
-"185 262 LINE",
+"121 0 LINE",
+"259 203 LINE",
+"397 0 LINE",
+"498 0 LINE",
+"312 264 LINE",
+"491 520 LINE",
+"400 520 LINE",
+"259 324 LINE",
+"116 520 LINE",
+"26 520 LINE",
+"206 264 LINE",
 "20 0 LINE"
 );
 }
 );
-width = 466;
+width = 518;
 }
 );
 unicode = 0078;
@@ -4655,6 +4704,54 @@ nodes = (
 width = 662;
 }
 );
+},
+{
+glyphname = r_f;
+lastChange = "2024-08-27 14:10:29 +0000";
+layers = (
+{
+components = (
+{
+name = f;
+transform = "{1, 0, 0, 1, 327, 0}";
+}
+);
+layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
+paths = (
+{
+closed = 1;
+nodes = (
+"150 0 LINE",
+"150 277 LINE",
+"150 375 OFFCURVE",
+"201 446 OFFCURVE",
+"287 446 CURVE",
+"321 446 LINE",
+"321 520 LINE",
+"299 520 LINE",
+"232 520 OFFCURVE",
+"187 503 OFFCURVE",
+"149 428 CURVE",
+"149 520 LINE",
+"60 520 LINE",
+"60 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"379 446 LINE",
+"379 520 LINE",
+"309 520 LINE",
+"309 446 LINE"
+);
+}
+);
+width = 653;
+}
+);
+leftMetricsKey = r;
+rightMetricsKey = f;
 },
 {
 glyphname = r_t;
