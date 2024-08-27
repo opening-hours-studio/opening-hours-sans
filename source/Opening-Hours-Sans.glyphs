@@ -1,7 +1,7 @@
 {
 .appVersion = "3260";
 copyright = "© 2023 Opening Hours Studio";
-date = "2024-08-27 14:17:25 +0000";
+date = "2024-08-27 14:26:37 +0000";
 designer = "Kim Andre Ottesen";
 designerURL = "https://kimandreottesen.no";
 familyName = "Opening Hours Sans";
@@ -20,17 +20,17 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb circumflexcomb dieresiscomb dotaccentcomb gravecomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [cedillacomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} ccmp_Other_1;\012";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb circumflexcomb dieresiscomb dotaccentcomb gravecomb ringcomb tildecomb];\012	lookupflag UseMarkFilteringSet @CombiningTopAccents;\012	sub i' @CombiningTopAccents by idotless;\012	sub j' @CombiningTopAccents by jdotless;\012} ccmp_Other_1;\012";
 name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language NLD;\012	sub iacute j' by jacute;\012	sub Iacute J' by Jacute;\012} locl_latn_0;\012";
+code = "script latn;\012language NLD;\012lookup locl_latn_0 {\012	sub iacute j' by jacute;\012	sub Iacute J' by Jacute;\012} locl_latn_0;\012";
 name = locl;
 },
 {
 automatic = 1;
-code = "lookupflag IgnoreMarks;\012sub f t by f_t;\012sub r t by r_t;\012sub t t by t_t;\012";
+code = "lookupflag IgnoreMarks;\012sub f t by f_t;\012sub r f by r_f;\012sub r t by r_t;\012sub t t by t_t;\012";
 name = dlig;
 },
 {
@@ -9989,5 +9989,5 @@ tH = "74";
 };
 };
 versionMajor = 1;
-versionMinor = 561;
+versionMinor = 562;
 }
