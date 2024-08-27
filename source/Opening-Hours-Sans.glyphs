@@ -1,13 +1,7 @@
 {
 .appVersion = "3260";
-DisplayStrings = (
-"exploratory/space design/space studio",
-"/f_t",
-"/r_t",
-"pe/r_f ect"
-);
 copyright = "© 2023 Opening Hours Studio";
-date = "2024-02-16 13:17:08 +0000";
+date = "2024-08-27 14:17:25 +0000";
 designer = "Kim Andre Ottesen";
 designerURL = "https://kimandreottesen.no";
 familyName = "Opening Hours Sans";
@@ -9995,5 +9989,5 @@ tH = "74";
 };
 };
 versionMajor = 1;
-versionMinor = 550;
+versionMinor = 561;
 }
