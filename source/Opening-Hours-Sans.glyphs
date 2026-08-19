@@ -1,8 +1,13 @@
 {
-.appVersion = "3434";
+.appVersion = "3436";
 .formatVersion = 3;
 DisplayStrings = (
-"AR©™"
+R,
+K,
+"/J.ss01 ada
+Jada
+Kada",
+o
 );
 axes = (
 {
@@ -10,7 +15,7 @@ name = Weight;
 tag = wght;
 }
 );
-date = "2025-10-16 07:48:59 +0000";
+date = "2026-01-27 13:44:27 +0000";
 familyName = "Opening Hours Sans Beta";
 featurePrefixes = (
 {
@@ -4485,7 +4490,7 @@ width = 566;
 glyphname = a;
 kernLeft = a;
 kernRight = a;
-lastChange = "2025-10-14 20:48:34 +0000";
+lastChange = "2025-11-04 15:32:54 +0000";
 layers = (
 {
 anchors = (
@@ -16384,9 +16389,19 @@ unicode = 771;
 },
 {
 glyphname = macroncomb;
-lastChange = "2025-10-15 13:22:51 +0000";
+lastChange = "2026-01-27 13:44:21 +0000";
 layers = (
 {
+anchors = (
+{
+name = _top;
+pos = (237,520);
+},
+{
+name = top;
+pos = (237,740);
+}
+);
 layerId = "960CAD6B-ED18-4DBA-BE38-2FEF5A29F355";
 shapes = (
 {
@@ -16396,6 +16411,16 @@ ref = macron;
 width = 473;
 },
 {
+anchors = (
+{
+name = _top;
+pos = (250,520);
+},
+{
+name = top;
+pos = (250,740);
+}
+);
 layerId = "F35B8C7B-A8A8-448B-9948-E2C6BFE1E2C8";
 shapes = (
 {
@@ -19969,5 +19994,5 @@ tH = "112";
 };
 };
 versionMajor = 2;
-versionMinor = 70;
+versionMinor = 72;
 }
